@@ -1,0 +1,207 @@
+﻿[
+  {
+    SyntaxTree: {
+      FilePath: Kros.Meetup\Kros.Meetup.Generator\Attribute.cs,
+      Encoding: {
+        BodyName: utf-8,
+        EncodingName: Unicode (UTF-8),
+        HeaderName: utf-8,
+        WebName: utf-8,
+        WindowsCodePage: 1200,
+        IsBrowserDisplay: true,
+        IsBrowserSave: true,
+        IsMailNewsDisplay: true,
+        IsMailNewsSave: true,
+        EncoderFallback: {
+          DefaultString: �,
+          MaxCharCount: 1
+        },
+        DecoderFallback: {
+          DefaultString: �,
+          MaxCharCount: 1
+        },
+        IsReadOnly: true,
+        CodePage: 65001
+      },
+      Length: 194,
+      HasCompilationUnitRoot: true,
+      Options: {
+        LanguageVersion: CSharp9,
+        PreprocessorSymbolNames: [],
+        Language: C#,
+        DocumentationMode: Parse
+      }
+    },
+    SourceText: {
+      Encoding: {
+        BodyName: utf-8,
+        EncodingName: Unicode (UTF-8),
+        HeaderName: utf-8,
+        WebName: utf-8,
+        WindowsCodePage: 1200,
+        IsBrowserDisplay: true,
+        IsBrowserSave: true,
+        IsMailNewsDisplay: true,
+        IsMailNewsSave: true,
+        EncoderFallback: {
+          DefaultString: �,
+          MaxCharCount: 1
+        },
+        DecoderFallback: {
+          DefaultString: �,
+          MaxCharCount: 1
+        },
+        IsReadOnly: true,
+        CodePage: 65001
+      },
+      Source:
+
+using System;
+namespace Kros.Meetup
+{
+    [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
+    public class ToStringAttribute: Attribute
+    {
+    }
+}
+,
+      Length: 194,
+      ChecksumAlgorithm: Sha1,
+      CanBeEmbedded: true,
+      Container: {},
+      Lines: [
+        {
+          EndIncludingLineBreak: 2,
+          SpanIncludingLineBreak: {
+            Length: 2
+          }
+        },
+        {
+          LineNumber: 1,
+          Start: 2,
+          End: 15,
+          EndIncludingLineBreak: 17,
+          Span: {
+            Start: 2,
+            Length: 13
+          },
+          SpanIncludingLineBreak: {
+            Start: 2,
+            Length: 15
+          }
+        },
+        {
+          LineNumber: 2,
+          Start: 17,
+          End: 38,
+          EndIncludingLineBreak: 40,
+          Span: {
+            Start: 17,
+            Length: 21
+          },
+          SpanIncludingLineBreak: {
+            Start: 17,
+            Length: 23
+          }
+        },
+        {
+          LineNumber: 3,
+          Start: 40,
+          End: 41,
+          EndIncludingLineBreak: 43,
+          Span: {
+            Start: 40,
+            Length: 1
+          },
+          SpanIncludingLineBreak: {
+            Start: 40,
+            Length: 3
+          }
+        },
+        {
+          LineNumber: 4,
+          Start: 43,
+          End: 128,
+          EndIncludingLineBreak: 130,
+          Span: {
+            Start: 43,
+            Length: 85
+          },
+          SpanIncludingLineBreak: {
+            Start: 43,
+            Length: 87
+          }
+        },
+        {
+          LineNumber: 5,
+          Start: 130,
+          End: 175,
+          EndIncludingLineBreak: 177,
+          Span: {
+            Start: 130,
+            Length: 45
+          },
+          SpanIncludingLineBreak: {
+            Start: 130,
+            Length: 47
+          }
+        },
+        {
+          LineNumber: 6,
+          Start: 177,
+          End: 182,
+          EndIncludingLineBreak: 184,
+          Span: {
+            Start: 177,
+            Length: 5
+          },
+          SpanIncludingLineBreak: {
+            Start: 177,
+            Length: 7
+          }
+        },
+        {
+          LineNumber: 7,
+          Start: 184,
+          End: 189,
+          EndIncludingLineBreak: 191,
+          Span: {
+            Start: 184,
+            Length: 5
+          },
+          SpanIncludingLineBreak: {
+            Start: 184,
+            Length: 7
+          }
+        },
+        {
+          LineNumber: 8,
+          Start: 191,
+          End: 192,
+          EndIncludingLineBreak: 194,
+          Span: {
+            Start: 191,
+            Length: 1
+          },
+          SpanIncludingLineBreak: {
+            Start: 191,
+            Length: 3
+          }
+        },
+        {
+          LineNumber: 9,
+          Start: 194,
+          End: 194,
+          EndIncludingLineBreak: 194,
+          Span: {
+            Start: 194
+          },
+          SpanIncludingLineBreak: {
+            Start: 194
+          }
+        }
+      ]
+    },
+    HintName: Attribute.cs
+  }
+]
