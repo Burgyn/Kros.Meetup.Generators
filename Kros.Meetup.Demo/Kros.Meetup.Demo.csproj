@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kros.Meetup\Kros.Meetup.csproj"
-                      OutputItemType="Analyzer" ReferenceOutputAssembly="false"/>
+    <ProjectReference Include="..\Kros.Meetup\Kros.Meetup.csproj"/>
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,7 @@ namespace Kros.Meetup.Demo
     {
         static void Main(string[] args)
         {
-            Address address = new Address() { City = "Žilina", Street = "Kvačalová" };
+            Address address = new Address() { City = "Žilina", Street = "A. Rudnaya" };
             Console.WriteLine("Hello World!");
         }
     }
@@ -18,8 +18,6 @@ namespace Kros.Meetup.Demo
 
         public string Street { get; set; }
 
-        //public string ZipCode { get; set; }
-
-        //public string Country { get; set; }
+        // public override string ToString() => $"City = {City}, Street = {Street}";
     }
 }

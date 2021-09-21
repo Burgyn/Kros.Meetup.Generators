@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Kros.Meetup": {
-      "commandName": "DebugRoslynComponent",
-      "targetProject": "..\\Kros.Meetup.Demo\\Kros.Meetup.Demo.csproj"
-    }
-  }
-}
