@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kros.Meetup", "Kros.Meetup\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kros.Meetup.Demo", "Kros.Meetup.Demo\Kros.Meetup.Demo.csproj", "{B89EB4A2-1C33-493B-9567-7B92A3FCB29C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kros.Meetup.Tests", "Kros.Meetup.Tests\Kros.Meetup.Tests.csproj", "{30945D81-1D56-426B-8DC7-32BF74AD04AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B89EB4A2-1C33-493B-9567-7B92A3FCB29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B89EB4A2-1C33-493B-9567-7B92A3FCB29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B89EB4A2-1C33-493B-9567-7B92A3FCB29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30945D81-1D56-426B-8DC7-32BF74AD04AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30945D81-1D56-426B-8DC7-32BF74AD04AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30945D81-1D56-426B-8DC7-32BF74AD04AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30945D81-1D56-426B-8DC7-32BF74AD04AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
