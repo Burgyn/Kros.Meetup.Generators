@@ -34,9 +34,16 @@ namespace Kros.Meetup
                 foreach (ClassDeclarationSyntax candidate in actorSyntaxReciver.Candidates)
                 {
                     ClassModel model = GenerateModel(candidate, context.Compilation);
-                    string code = Format(Generate(model));
+                    if (model.Modifier.Contains("partial"))
+                    {
+                        string code = Format(Generate(model));
 
-                    context.AddSource($"{model.Name}.cs", SourceText.From(code, Encoding.UTF8));
+                        context.AddSource($"{model.Name}.cs", SourceText.From(code, Encoding.UTF8));
+                    }
+                    else
+                    {
+                        context.ReportMissingPartialModifier(candidate);
+                    }
                 }
             }
         }
