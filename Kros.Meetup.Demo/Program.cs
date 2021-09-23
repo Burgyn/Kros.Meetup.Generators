@@ -11,13 +11,12 @@ namespace Kros.Meetup.Demo
         }
     }
 
-    [ToString]
     public partial class Address
     {
         public string City { get; set; }
 
         public string Street { get; set; }
 
-        // public override string ToString() => $"City = {City}, Street = {Street}";
+        public override string ToString() => $"City = {City}, Street = {Street}";
     }
 }
