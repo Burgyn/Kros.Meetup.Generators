@@ -5,7 +5,7 @@ namespace Kros.Meetup
 {
     public static class GeneratorExecutionContextExtensions
     {
-        private static readonly DiagnosticDescriptor _missingArgument = new DiagnosticDescriptor(
+        private static readonly DiagnosticDescriptor _missingPartialModifier = new DiagnosticDescriptor(
             id: "SMP001",
             title: "Missing partial modifier",
             messageFormat: "A partial modifier is required, a ToString override will not be generated",
@@ -18,7 +18,7 @@ namespace Kros.Meetup
             ClassDeclarationSyntax classDeclaration)
             => context.ReportDiagnostic(
                 Diagnostic.Create(
-                    _missingArgument,
+                    _missingPartialModifier,
                     classDeclaration.GetLocation()));
     }
 }
